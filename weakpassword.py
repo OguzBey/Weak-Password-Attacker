@@ -24,7 +24,7 @@ class Help(object):
 	def __init__(self):
 		print yazi.bold+yazi.white+ "python file.py -u <link|ip adress> -w <text file>"+yazi.reset
 		print yazi.underline+yazi.red+ "Example :\n" + yazi.reset
-		print yazi.bold+yazi.red+ "python weak-password.py -u site.com -w ~/Desktop/cikti.txt\n"+yazi.reset
+		print yazi.bold+yazi.red+ "python weakpassword.py -u site.com -w ~/Desktop/cikti.txt\n"+yazi.reset
 def start(link,filename):
 	lookup = lk.ReverseIpLookup()
 	ret = lookup.gonder(link)
