@@ -1,5 +1,7 @@
 #!/usr/bin/python2.7
 # -*- coding: utf-8 -*-
+# version 1.1.0
+
 import sys,os,time
 sys.path.append("./source/")
 import lookupip as lk
